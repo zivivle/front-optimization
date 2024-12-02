@@ -1,8 +1,13 @@
-@charset 'utf-8'
+@charset 'utf-8';
+@import './font.scss';
 
 :root {
   --red: #e97664;
   --brown: #89757a;
   --beige: #f6f5f5;
   --black: #544f4f;
+}
+
+body {
+  font-family: 'NanumMyeongjoEco';
 }
